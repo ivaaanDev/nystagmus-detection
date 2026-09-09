@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.zed/
+
+# Sistema
+.DS_Store
+
+# Datos experimentales
+data/raw/*
+data/interim/*
+
+# Mantener estructura de carpetas
+!data/raw/.gitkeep
+!data/interim/.gitkeep
